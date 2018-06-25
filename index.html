@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>회원가입 약관동의 페이지 연습</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/script.js"></script>
+</head>
+    <body>
+        <div id="wrapper">
+           <a href="#">본문바로가기</a>
+            <header>
+                <div class="header_top">
+                    <div class="top_left">
+                        <ul>
+                            <li><a href="#"><img src="./img/star.png" alt="즐겨찾기">즐겨찾기</a></li>
+                            <li><a href="#"><img src="./img/mobile.png" alt="모바일웹">모바일웹</a></li> 
+                        </ul>
+                    </div>
+                    <div class="top_right">
+                        <ul>
+                            <li><a href="#">로그아웃</a></li>
+                            <li><a href="#">장바구니<span>5</span></a></li> 
+                            <li><a href="#">마이페이지</a></li> 
+                            <li><a href="#">주문/배송</a></li> 
+                            <li><a href="#">이벤트/쿠폰</a></li> 
+                            <li><a href="#">고객센터</a></li> 
+                        </ul>
+                    </div>
+                </div>
+                <div class="header_img">
+                    <img src="./img/header.png" alt="헤더 메뉴 및 검색 이미지">
+                </div>
+                <div class="header_cont">
+                    <ul class="page_history">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">회원가입</a></li>
+                    </ul>
+                    <h3>회원가입</h3>
+                    <ul class="page_list">
+                        <li>약관동의</li>
+                        <li>정보입력</li>
+                        <li>가입완료</li>
+                    </ul>
+                </div>
+            </header>
+            <!-- //header -->
+            <main>
+                <div class="main_cont">
+                    <h4>약관동의</h4>
+                    <p>모든 이용약관/개인정보 수집 및 이용에 동의하셔야 회원가입이 가능합니다.</p>
+                    <div class="main_agree">
+                          <ul>
+                              <li>
+                                  <input type="checkbox" id="chk_01">
+                                  <label for="chk_01"><span>chk_01</span>모나미 통합쇼핑몰 이용약관 (필수)</label>
+                                  <a href="#">전체약관 보기<span>></span></a>
+                              </li>
+                              <li>
+                                  <input type="checkbox" id="chk_02">
+                                  <label for="chk_02"><span>chk_02</span>모나르떼관 통합회원 약관동의 (선택)</label>
+                                  <a href="#">전체약관 보기<span>></span></a>
+                              </li>
+                              <li>
+                                  <input type="checkbox" id="chk_03">
+                                  <label for="chk_03"><span>chk_03</span>개인정보 수집 및 이용동의 (필수)</label>
+                                  <a href="#">내용 보기<span>></span></a>
+                              </li>
+                              <li>
+                                  <input type="checkbox" id="chk_04">
+                                  <label for="chk_04"><span>chk_04</span>개인정보 제 3자 제공 동의 (필수)</label>
+                                  <a href="#">내용 보기<span>></span></a>
+                              </li>
+                          </ul>
+                          <div class="all_btn">
+                                  <input type="checkbox" id="all_chk">
+                                  <label for="all_chk"><span></span>모든 내용을 확인하였으며 모나르떼 회원으로 가입됨에 동의합니다.</label>
+                          </div>
+                          <p>※모나르떼 통합회원 약관에 동의하시면 모나르떼 사이트에도 자동으로 가입됩니다.</p>
+                    </div>
+                </div>
+                <div class="main_cont">
+                    <h4>이메일/SMS 수신여부</h4>
+                    <div class="send_agree">
+                       <strong>이메일 수신여부</strong>
+                        <ul>
+                            <li><input type='radio'>예</li>
+                            <li><input type='radio'>아니오</li>
+                        </ul>
+                        
+                       <strong>SMS 수신여부</strong>
+                        <ul>
+                            <li><input type='radio'>예</li>
+                            <li><input type='radio'>아니오</li>
+                        </ul>
+                        <p>모나미 이메일/SMS 수신동의를 하시면 할인과 매거진, 이벤트, 신상품 등의 정보를 빠르게 받아보실 수 있습니다.</p>
+                        <p>단, 주문 및 배송관련 정보는 수신동의와 관계없이 자동으로 발송됩니다.</p>
+                        <ul class="on">
+                            <li>가입은 만 14세 이상부터 가능합니다.</li>
+                            <li>모든 이용약관/개인정보 수집 및 이용에 동의하셔야 회원가입이 가능합니다.</li>
+                        </ul>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
